@@ -35,10 +35,10 @@ public class MyMvcConfig implements WebMvcConfigurer {
      * @date 2019/8/22 11:52
      * @author 13055
      */
-    @Override
+    /*@Override
     public void addInterceptors(InterceptorRegistry registry) {
         registry.addInterceptor(new LoginHandlerInterceptor())
                 .addPathPatterns("/**")
                 .excludePathPatterns("/index.html","/","/user/login","/asserts/**","/webjars/**");
-    }
+    }*/
 }
